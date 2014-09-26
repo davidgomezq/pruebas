@@ -1,0 +1,236 @@
+author = "Tonic";
+onLoadName = "Altis Life RPG v3.1.4.5";
+onLoadMission = "A RPG game mode developed by Tonic";
+loadScreen = "textures\ARMA3PORTADA.jpg";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+disableChannels[]={0,1,2};
+enableDebugConsole = 1;
+respawnDialog = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 75;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 61;
+corpseLimit = 5;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 61;
+
+#include "dialog\MasterHandler.h"
+#include "addons\R3F_ARTY_AND_LOG\desc_include.h"
+
+class RscTitles
+{
+	#include "dialog\ui.hpp"
+	#include "dialog\progress.hpp"
+	#include "dialog\hud_nameTags.h"
+	#include "UI\defines.hpp"
+	#include "addons\R3F_ARTY_AND_LOG\desc_rsct_include.h"
+};
+
+
+class CfgFunctions
+{
+	#include "Functions.h"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class SirenLong
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class Sirenmedic
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\Sirenmedic.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class tazersound
+	{
+		name = "Tazersound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+	
+	class flashbang
+	{
+		name = "flashbang";
+		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class car_lock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class unlock
+	{
+		name = "unlock";
+		sound[] = {"\sounds\unlock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class bombarm
+	{
+		name = "bombarm";
+		sound[] = {"\sounds\bombarm.ogg", 1.0, 1};
+		titles[] = {};
+	}; 
+	
+	class alarmevoiture
+	{
+		name = "alarmevoiture";
+		sound[] = {"\sounds\alarmevoiture.ogg", 1, 1};
+		titles[] = {};
+	};
+	
+	class bancocentral
+	{
+		name = "bancocentral";
+		sound[] = {"\sounds\bancocentral.ogg", 1, 1};
+		titles[] = {};
+	};
+	
+	class spraycan
+	{
+		name = "spraycan";	
+		sound[] = {"\sounds\spraycan.ogg", db-20, 1};
+		titles[] = {};
+	};
+	
+};
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Saliste del Juego";
+		subtitle = "";
+		description = "Vuelve Pronto, te esperamos.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	
+	class NotWhitelisted
+	{
+		title = "Mission Failed";
+		subtitle = "No estas en la white-list para usar este slot";
+		description = "No se le permite utilizar esta ranura ya que no tiene los permisos adecuados, intente otro slot.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
+	class Blacklisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are blacklisted from cops";
+		description = "No se le permite ser un policía debido a sus antiguas acciones y los administradores le han expulsado de la policía.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
+	class SpyGlass
+	{
+		title = "El sitema SpyGlass te ha detectado";
+		subTitle = "Fuistes detectado por sistema SpyGlass";
+		description = "Fuiste destectado como hacker y has sido reportado a los administradores del servidor.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
+class CfgNotifications
+{
+	class MedicalRequestEmerg
+	{
+		title = "SOS Socorro";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 5;
+		priority = 7;
+	};
+	
+	class DeliveryAssigned
+	{
+		title = "Trabajo de Entrega Aceptada";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 10;
+		priority = 7;
+	};
+	
+	class DeliveryFailed
+	{
+		title = "Entrega Fallida";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+		description = "%1";
+		duration = 7;
+		priority = 7;
+	};
+	
+	class DeliverySucceeded
+	{
+		title = "Completada Entrega";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+		description = "%1";
+		duration = 6;
+		priority = 6;
+	};
+	
+	class TextMessage
+	{
+		title = "Reciviste un mensaje de texto";
+		iconPicture = "icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class PoliceDispatch
+	{
+		title = "091 Centro de Mando";
+		iconPicture = "icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class AdminDispatch
+	{
+		title = "Admin Centro de Mando";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class AdminMessage
+	{
+		title = "Admin Mensaje";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+};

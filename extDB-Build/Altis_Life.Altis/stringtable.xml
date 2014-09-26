@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Altis Life RPG">
+	<Package name="Global">
+		<Key ID="STR_Global_Close">
+			<Original>Cerrar</Original>
+		</Key>
+		<Key ID="STR_Global_Sell">
+			<Original>Vender</Original>
+		</Key>
+		<Key ID="STR_Global_Buy">
+			<Original>Comprar</Original>
+		</Key>
+		<Key ID="STR_Global_Give">
+			<Original>Dar</Original>
+		</Key>
+		<Key ID="STR_Global_Use">
+			<Original>Usar</Original>
+		</Key>
+		<Key ID="STR_Global_Remove">
+			<Original>Borrar</Original>
+		</Key>
+		<Key ID="STR_Global_Settings">
+			<Original>Ajustes</Original>
+		</Key>
+		<Key ID="STR_Global_RentVeh">
+			<Original>Alquiler</Original>
+		</Key>
+		<Key ID="STR_Global_Retrieve">
+			<Original>Recuperar</Original>
+		</Key>
+		<Key ID="STR_Global_NoSelection">
+			<Original>No seleccionaste nada.</Original>
+		</Key>
+	</Package>
+	<Package name="Admin_Menu">
+			<Key ID="STR_Admin_Spectate">
+			<Original>Espectar</Original>
+		</Key>
+		<Key ID="STR_Admin_Teleport">
+			<Original>Teleport</Original>
+		</Key>
+		<Key ID="STR_Admin_TpHere">
+			<Original>TP Aqui</Original>
+		</Key>
+		<Key ID="STR_Admin_Debug">
+			<Original>Debug</Original>
+		</Key>
+		<Key ID="STR_Admin_Compensate">
+			<Original>Dinero</Original>
+		</Key>
+		<Key ID="STR_Admin_God">
+			<Original>Modo-Dios</Original>
+		</Key>
+		<Key ID="STR_Admin_Freeze">
+			<Original>congelar</Original>
+		</Key>
+		<Key ID="STR_Admin_Markers">
+			<Original>Markers</Original>
+		</Key>
+		<Key ID="STR_ANOTF_CompWarn">
+			<Original>Esta a punto de darte a ti mismo $%1 para compensar a otro jugadorr &lt;br/&gt;&lt;br/&gt;Deberas dar el dinero a la persona que quieres compensar manualmente.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_Success">
+			<Original>Te has añadido $%1 en tu cuenta.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_Fail">
+			<Original>No puede por encima de 999999.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_Amount">
+			<Original>Por favor Por favor indica la cantidad a compensar.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_Frozen">
+			<Original>You have disabled %1's input.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_Unfrozen">
+			<Original>You have enabled %1's input.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_Error">
+			<Original>You can't do that dumbass.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_ErrorLevel">
+			<Original>Tu nivel de Admin no es suficiente.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_MDisabled">
+			<Original>Markers Disabled.</Original>
+		</Key>
+		<Key ID="STR_ANOTF_MEnabled">
+			<Original>Markers Enabled.</Original>
+		</Key>
+		<Key ID="STR_NOTF_ActionCancel">
+			<Original>Accion Cancelada</Original>
+		</Key>
+		<Key ID="STR_Global_Yes">
+			<Original>Si</Original>
+		</Key>
+		<Key ID="STR_Global_No">
+			<Original>No</Original>
+		</Key>
+	</Package>
+	<Package name="ATM_Menu">
+		<Key ID="STR_ATM_Title">
+			<Original>Gestión de Cuenta Bancaria</Original>
+		</Key>
+		<Key ID="STR_ATM_Withdraw">
+			<Original>Sacar</Original>
+		</Key>
+		<Key ID="STR_ATM_Deposit">
+			<Original>Ingresar</Original>
+		</Key>
+		<Key ID="STR_ATM_Transfer">
+			<Original>Transferencia</Original>
+		</Key>
+		<Key ID="STR_ATM_GreaterThan">
+			<Original>No puedes Ingresar mas de $999,999 de una vez</Original>
+		</Key>
+		<Key ID="STR_ATM_notnumeric">
+			<Original>La cantidad no es un numero valido.</Original>
+		</Key>
+	</Package>
+	<Package name="Cell_Phone">
+		<Key ID="STR_CELL_Title">
+			<Original>Movil</Original>
+		</Key>
+		<Key ID="STR_CELL_TextToSend">
+			<Original>Enviar Mensaje a:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextToCivil">
+			<Original>Civiles:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextMSGBtn">
+			<Original>enviar a:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextPolice">
+			<Original>Guardia Civil</Original>
+		</Key>
+		<Key ID="STR_CELL_TextPoliceeast">
+			<Original>Policia Maroc</Original>
+		</Key>
+		<Key ID="STR_CELL_TextAdmins">
+			<Original>Admins SMS</Original>
+		</Key>
+		<Key ID="STR_CELL_AdminMsg">
+			<Original>Admin mensaje</Original>
+		</Key>
+		<Key ID="STR_CELL_AdminMSGAll">
+			<Original>Admin a Todos</Original>
+		</Key>
+		<Key ID="STR_CELL_EMSRequest">
+			<Original>SOS Socorro</Original>
+		</Key>
+	</Package>
+	<Package name="Chop_Shop">
+		<Key ID="STR_ChopShop_Title">
+			<Original>Desguace</Original>
+		</Key>
+	</Package>
+	<Package name="Gang_Menu">
+		<Key ID="STR_Gang_Title">
+			<Original>Gestion de banda</Original>
+		</Key>
+		<Key ID="STR_Gang_Title2">
+			<Original>Gestion de banda - bandas actuales</Original>
+		</Key>
+		<Key ID="STR_Gang_Join">
+			<Original>Unirse</Original>
+		</Key>
+		<Key ID="STR_Gang_Leave">
+			<Original>Abandonar</Original>
+		</Key>
+		<Key ID="STR_Gang_UpgradeSlots">
+ 		<Original>Mejorar NºMax</Original>
+		</Key>
+		<Key ID="STR_Gang_Kick">
+			<Original>echar</Original>
+		</Key>
+		<Key ID="STR_Gang_SetLeader">
+			<Original>Asignar lider</Original>
+		</Key>
+		<Key ID="STR_Gang_PriceTxt">
+			<Original>Para crear una banda esta costara $%1</Original>
+		</Key>
+		<Key ID="STR_Gang_Create">
+			<Original>crear</Original>
+		</Key>
+		<Key ID="STR_Gang_YGN">
+			<Original>Nombre de tu banda</Original>
+		</Key>
+		<Key ID="STR_Gang_MainMenu">
+			<Original>No estas en una banda actualmente, que es lo que quieres hacer?</Original>
+		</Key>
+		<Key ID="STR_Gang_Browse">
+			<Original>buscar</Original>
+		</Key>
+			<Key ID="STR_Invite_Player">
+ 			<Original>Invitar Jugador</Original>
+ 		</Key>
+ 		<Key ID="STR_Disband_Gang">
+			<Original>Deshacer Trabajo</Original>
+ 		</Key>
+	</Package>
+	<Package name="Garage_Menu">
+		<Key ID="STR_Garage_Title">
+			<Original>Garaje de Vehiculos</Original>
+		</Key>
+		<Key ID="STR_Garage_GetVehicle">
+			<Original>Obtener Vehiculos</Original>
+		</Key>
+		<Key ID="STR_Garage_SellVehicle">
+			<Original>Vender Vehiculo</Original>
+		</Key>
+		<Key ID="STR_Garage_SellPrice">
+			<Original>Precio de Venta</Original>
+		</Key>
+		<Key ID="STR_Garage_SFee">
+			<Original>Cuota de Almacenamiento</Original>
+		</Key>
+		<Key ID="STR_Garage_NoVehicles">
+			<Original>No hay Vehiculos en el Garaje.</Original>
+		</Key>
+		<Key ID="STR_Garage_CashError">
+			<Original>No tienes $%1 en tu cuenta bancaria</Original>
+		</Key>
+		<Key ID="STR_Garage_SpawningVeh">
+			<Original>Sacando Vehiculo espera por favor...</Original>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Destroyed">
+			<Original>Lo siento pero %1 ha sido clasificado como destruido y fue enviado al desguace.</Original>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Active">
+			<Original>Lo siento pero %1 está en algún lugar ya activo en el mundo y no puede ser sacado.</Original>
+		</Key>
+		<Key ID="STR_Garage_SpawnPointError">
+			<Original>Ya hay un vehículo en el punto de generación. Se le reembolsará el costo de sacarlo fuera.</Original>
+		</Key>
+		<Key ID="STR_Garage_SoldCar">
+			<Original>Vendiste ese vehiculo por $%1</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_NotPersistent">
+			<Original>Este vehiculo es de alquiler y no puede ser guardado en el garaje.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_NoOwnership">
+			<Original>Este vehiculo no es tuyo y no puede ser guardado en el garaje.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_Success">
+			<Original>Este vehiculo ha sido guardado en tu garage.</Original>
+		</Key>
+	</Package>
+	<Package name="Key_Chain">
+		<Key ID="STR_Keys_Title">
+			<Original>Llavero - Lista de llaves</Original>
+		</Key>
+		<Key ID="STR_Keys_DropKey">
+			<Original>Tirar Llave</Original>
+		</Key>
+		<Key ID="STR_Keys_GiveKey">
+			<Original>Dar llave</Original>
+		</Key>
+	</Package>
+	<Package name="Player_Menu">
+		<Key ID="STR_PM_Title">
+			<Original>Menu jugador</Original>
+		</Key>
+		<Key ID="STR_PM_cItems">
+			<Original>Items actuales</Original>
+		</Key>
+		<Key ID="STR_PM_Licenses">
+			<Original>Licencias</Original>
+		</Key>
+		<Key ID="STR_PM_MoneyStats">
+			<Original>Estado monetario</Original>
+		</Key>
+		<Key ID="STR_PM_MyGang">
+			<Original>Mi banda</Original>
+		</Key>
+		<Key ID="STR_PM_WantedList">
+			<Original>Lista de buscados</Original>
+		</Key>
+		<Key ID="STR_PM_CellPhone">
+			<Original>Movil</Original>
+		</Key>
+		<Key ID="STR_PM_KeyChain">
+			<Original>Llavero</Original>
+		</Key>
+		<Key ID="STR_PM_AdminMenu">
+			<Original>Admin Menu</Original>
+		</Key>
+		<Key ID="STR_PM_SyncData">
+			<Original>Sicronizar</Original>
+		</Key>
+	</Package>
+	<Package name="Settings_Menu">
+		<Key ID="STR_SM_Title">
+			<Original>ajustes Menu</Original>
+		</Key>
+		<Key ID="STR_SM_onFoot">
+			<Original>a pie:</Original>
+		</Key>
+		<Key ID="STR_SM_inCar">
+			<Original>en coche:</Original>
+		</Key>
+		<Key ID="STR_SM_inAir">
+			<Original>en aire:</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip1">
+			<Original>ver distancia a pie</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip2">
+			<Original>ver distancia montado en un vehiculo</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip3">
+			<Original>ver distancia montado en un vehiculo aereo</Original>
+		</Key>
+		<Key ID="STR_SM_PlayerTags">
+			<Original>Player Tags</Original>
+		</Key>
+		<Key ID="STR_SM_TagsON">
+			<Original>Tags ON</Original>
+		</Key>
+		<Key ID="STR_SM_TagsOFF">
+			<Original>Tags OFF</Original>
+		</Key>
+		<Key ID="STR_SM_SC">
+			<Original>Sidechat Settings</Original>
+		</Key>
+		<Key ID="STR_SM_SCOFF">
+			<Original>Sidechat OFF</Original>
+		</Key>
+		<Key ID="STR_SM_SCON">
+			<Original>Sidechat ON</Original>
+		</Key>
+	</Package>
+	<Package name="Virt_Shop">
+		<Key ID="STR_VS_SI">
+			<Original>Tienda Inventario</Original>
+		</Key>
+		<Key ID="STR_VS_PI">
+			<Original>Tu inventario</Original>
+		</Key>
+		<Key ID="STR_VS_BuyItem">
+			<Original>Comprar Item</Original>
+		</Key>
+		<Key ID="STR_VS_SellItem">
+			<Original>Vender Item</Original>
+		</Key>
+	</Package>
+	<Package name="Spawn_Menu">
+		<Key ID="STR_Spawn_Title">
+			<Original>Spawn Seleccion</Original>
+		</Key>
+		<Key ID="STR_Spawn_Spawn">
+			<Original>Spawn</Original>
+		</Key>
+		<Key ID="STR_Spawn_CSP">
+			<Original>Punto actual Spawn</Original>
+		</Key>
+		<Key ID="STR_Spawn_Spawned">
+			<Original>Has hecho spawn en</Original>
+		</Key>
+	</Package>
+	<Package name="Ticket_Menu">
+		<Key ID="STR_Ticket_GiveTicket">
+			<Original>Dar multa</Original>
+		</Key>
+		<Key ID="STR_Ticket_PayTicket">
+			<Original>Pagar multa</Original>
+		</Key>
+		<Key ID="STR_Ticket_RefuseTicket">
+			<Original>Rechazar multa</Original>
+		</Key>
+	</Package>
+	<Package name="Trunk_Menu">
+		<Key ID="STR_Trunk_TInventory">
+			<Original>Maletero inventario</Original>
+		</Key>
+		<Key ID="STR_Trunk_PInventory">
+			<Original>Jugador inventario</Original>
+		</Key>
+		<Key ID="STR_Trunk_Take">
+			<Original>tomar</Original>
+		</Key>
+		<Key ID="STR_Trunk_Store">
+			<Original>tienda</Original>
+		</Key>
+	</Package>
+	<Package name="Wanted_Menu">
+		<Key ID="STR_Wanted_Title">
+			<Original>APD Wanted List</Original>
+		</Key>
+		<Key ID="STR_Wanted_Pardon">
+			<Original>Perdon</Original>
+		</Key>
+	</Package>
+	<Package name="Animals">
+		<Key ID="STR_ANIM_Salema">
+			<Original>Salema</Original>
+		</Key>
+		<Key ID="STR_ANIM_Ornate">
+			<Original>Ornate</Original>
+		</Key>
+		<Key ID="STR_ANIM_Mackerel">
+			<Original>Mackerel</Original>
+		</Key>
+		<Key ID="STR_ANIM_Tuna">
+			<Original>Atun</Original>
+		</Key>
+		<Key ID="STR_ANIM_Mullet">
+			<Original>Mullet</Original>
+		</Key>
+		<Key ID="STR_ANIM_Catshark">
+			<Original>Tiburon Gato</Original>
+		</Key>
+		<Key ID="STR_ANIM_Rabbit">
+			<Original>Rabbit</Original>
+		</Key>
+	</Package>
+	<Package name="Notifications">
+		<Key ID="STR_NOTF_NE_1">
+			<Original>No tienes $%1 para un %2</Original>
+		</Key>
+		<Key ID="STR_NOTF_B_1">
+			<Original>Compraste un a %1 por $%2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Arrested_1">
+			<Original>%1 fue arrestado por %2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Fishing">
+			<Original>Cogiste un %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_CaughtTurtle">
+			<Original>Has cogido una tortuga</Original>
+		</Key>
+		<Key ID="STR_NOTF_Earned_1">
+			<Original>Has comdo $%1</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetDrop">
+			<Original>Soltar red de pesca....</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetDropFail">
+			<Original>No has cogido ningun pez..</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetUp">
+			<Original>Fishing net pulled up.</Original>
+		</Key>
+		<Key ID="STR_NOTF_InvFull">
+			<Original>Tu inventario esta lleno.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Gathering">
+			<Original>Recolectando %1...</Original>
+		</Key>
+		<Key ID="STR_NOTF_ChopSoldCar">
+			<Original>Has vendindo %1 por $%2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Picked">
+			<Original>Has cogido %1 %2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Collected">
+			<Original>Has recolectado algo de %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPStart">
+			<Original>Has entregado un paquete a %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPTask">
+			<Original>Entregue este paquete a %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPFailed">
+			<Original>Fallaste en la entrega del paquete por que moriste.</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_NoCash">
+			<Original>No tienes $%1 para ser curado</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healing">
+			<Original>Por favor, quédate quieto</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_ToFar">
+			<Original>Necesitas estar a menos de 5m cuando el doctor te esta curando</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healed">
+			<Original>Has sido curado.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Frozen">
+			<Original>You have been frozen by an administrator</Original>
+		</Key>
+		<Key ID="STR_NOTF_Unfrozen">
+			<Original>You have been unfrozen by an administrator</Original>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpounded">
+			<Original>%1 tu %2 esta siendo embargado por la policia.</Original>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpounded123">
+			<Original>%1 tu %2 se esta enviado al garage.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounding">
+			<Original>embargado vehiculo</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingCancelled">
+			<Original>embargo ha sido cancelado.</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingCancelled123">
+			<Original>el envio al garage ha sido cancelado.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounded">
+			<Original>has embargado un %1\n\nHas recibido $%2 por limpiar las calles!</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounded123">
+			<Original>has enviado un %1\n\Si lo hubieras llevado al cuartel hubieras recibido $%2 !</Original>
+		</Key>
+		<Key ID="STR_NOTF_HasImpounded">
+			<Original>%1 ha embargado %2's %3</Original>
+		</Key>
+		<Key ID="STR_NOTF_HasImpounded123">
+			<Original>%1 ha enviado al garage %2's %3</Original>
+		</Key>
+		<Key ID="STR_NOTF_AbortESC">
+			<Original>Abortar valido en %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceIsMining">
+			<Original>Este vehiculo esta trabajando</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceFull">
+			<Original>El vehiculo esta lleno</Original>
+		</Key>
+		<Key ID="STR_NOTF_notNearResource">
+			<Original>No tienes cerca ningun campo</Original>
+		</Key>
+		<Key ID="STR_NOTF_MiningStopped">
+			<Original>No puedes cambiar de vehiculo mientras trabajas con el</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMining">
+			<Original>La maquina esta trabajando...</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMined">
+			<Original>Completado el ciclo, has recolectado %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_OutOfFuel">
+			<Original>Vehiculo vacio de gasolina</Original>
+		</Key>
+		<Key ID="STR_MISC_StPubIntox">
+			<Original>%1 has passed out drunk in public!</Original>
+		</Key>
+		<Key ID="STR_MISC_AlreadyDrinking">
+			<Original>Ya está bebiendo algo de licor</Original>
+		</Key>
+		<Key ID="STR_MISC_WestIndNoNo">
+			<Original>No beber en servicio</Original>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut">
+			<Original>Usted se ha desmayado</Original>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut1">
+			<Original>¿Qué demonios me pasó a mí?</Original>
+		</Key>
+	</Package>
+	<Package name="Life_Items">
+		<Key ID="STR_Item_Cannabis">
+			<Original>Cannabis</Original>
+		</Key>
+		<Key ID="STR_Item_Apple">
+			<Original>manzana</Original>
+		</Key>
+		<Key ID="STR_Item_Apples">
+			<Original>manzanas</Original>
+		</Key>
+		<Key ID="STR_Item_Cocaine">
+			<Original>cocaina</Original>
+		</Key>
+		<Key ID="STR_Item_Heroin">
+			<Original>heroina</Original>
+		</Key>
+		<Key ID="STR_Item_Peach">
+			<Original>melocoton</Original>
+		</Key>
+		<Key ID="STR_Item_Peaches">
+			<Original>melocotones</Original>
+		</Key>
+		<Key ID="STR_Item_madera">
+			<Original>madera</Original>
+		</Key>
+		<Key ID="STR_Item_lupulo">
+			<Original>lupulo</Original>
+		</Key>
+		<Key ID="STR_Item_malta">
+			<Original>malta</Original>
+		</Key>
+		<Key ID="STR_Item_rana">
+			<Original>rana</Original>
+		</Key>
+		<Key ID="STR_Item_tabaco">
+			<Original>tabaco</Original>
+		</Key>
+		</Package>
+	<Package name="Federal_Reserve">
+		<Key ID="STR_NOTF_FRRobbery_fail">
+			<Original>El robo ha fallado por razones desconocidas</Original>
+		</Key>
+		<Key ID="STR_NOTF_FRRobbery_Success">
+			<Original>$%1 esta robando el banco central</Original>
+		</Key>
+		<Key ID="STR_FEDR_VInUse">
+			<Original>Esta caja fuerte esta siendo robado por alguien</Original>
+		</Key>
+		<Key ID="STR_FEDR_VRecently">
+			<Original>Esta caja fuerte ha sido ya robada</Original>
+		</Key>
+	</Package>
+	<Package name="Player_Interaction">
+		<Key ID="STR_pInAct_Title">
+			<Original>Menu interaccion jugador</Original>
+		</Key>
+		<Key ID="STR_pInAct_PutInCar">
+			<Original>Al vehiculo</Original>
+		</Key>
+		<Key ID="STR_pInAct_Unrestrain">
+			<Original>des-arrestado</Original>
+		</Key>
+		<Key ID="STR_pInAct_checkLicenses">
+			<Original>verificar licencias</Original>
+		</Key>
+		<Key ID="STR_pInAct_SearchPlayer">
+			<Original>buscar jugador</Original>
+		</Key>
+		<Key ID="STR_pInAct_StopEscort">
+			<Original>parar escoltar</Original>
+		</Key>
+		<Key ID="STR_pInAct_Escort">
+			<Original>escoltar jugador</Original>
+		</Key>
+		<Key ID="STR_pInAct_TicketBtn">
+			<Original>multar</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest">
+			<Original>enviar carcel</Original>
+		</Key>
+	</Package>
+	<Package name="Vehicle_Interaction">
+		<Key ID="STR_vInAct_Title">
+			<Original>menu interaccion vehiculo</Original>
+		</Key>
+		<Key ID="STR_vInAct_Unflip">
+			<Original>voltear vehiculo</Original>
+		</Key>
+		<Key ID="STR_vInAct_GetInKart">
+			<Original>Get In Kart</Original>
+		</Key>
+		<Key ID="STR_vInAct_PushBoat">
+			<Original>Push Boat</Original>
+		</Key>
+		<Key ID="STR_vInAct_Repair">
+			<Original>Reparar Vehiculo</Original>
+		</Key>
+		<Key ID="STR_vInAct_Repairind">
+			<Original>Mecanico</Original>
+		</Key>
+		<Key ID="STR_vInAct_Registration">
+			<Original>Papeles</Original>
+		</Key>
+		<Key ID="STR_vInAct_SearchVehicle">
+			<Original>Registrar</Original>
+		</Key>
+		<Key ID="STR_vInAct_PullOut">
+			<Original>sacar jugadores</Original>
+		</Key>
+		<Key ID="STR_vInAct_Impound">
+			<Original>Al garaje</Original>
+		</Key>
+		<Key ID="STR_vInAct_Impound112">
+			<Original>embargar</Original>
+		</Key>
+        <Key ID="STR_NOTF_NoLootingPerson">
+        <Original>No esta permitido lootear de cuepos muertos</Original>
+        </Key>
+		<Key ID="STR_vInAct_DeviceMine">
+			<Original>Recolectar con maquina</Original>
+		</Key>
+	</Package>
+</Project>

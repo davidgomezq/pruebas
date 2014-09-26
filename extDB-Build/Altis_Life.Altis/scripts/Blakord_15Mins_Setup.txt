@@ -1,0 +1,19 @@
+_DDistance = 1000; 		// Distancia desde el punto de muerte para no dejar acercar, ** "en metros"
+
+_DTime = 15;				// Tiempo de penalizacion para no dejar acercar a zona de muerte ** "en minutos"
+
+_DPenlTime = 30;		// Tiempo de espera antes de tomar sancion ** "en segundos"
+
+_DPenlTimeGo = 30;		// Seguntos para matar por completo al jugador (tiempo para drenar 100% de vida) ** "en segundos"
+
+_DFreeRespawn = 2;		// Distancia de revivir, distancia a la que se asume ha revivido por volver a la vida en el punto donde ha muerto ** "en metros"
+
+_DDelayChkDead = 2;		// Demora para dar tiempo a que repose el cuerpo si ha muerto en movimiento se fija sitio de la muerte en posicion despues de esta demora ** @en segundos@
+
+_DDONOFF = 1;			// Apagar encender el script, 0 apagado 1 enendido
+
+// Aplicar restriccion a facciones donde 0 es no aplicar, 1 es poner solo un mensaje y 2 es prohibir perimetro
+_DBlufo = 1;
+_DOpfor = 1;
+_DRevel = 1;
+_DCivil = 2;
